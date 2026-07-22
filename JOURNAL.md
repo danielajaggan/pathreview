@@ -14,6 +14,6 @@ The function test_query_with_partial_overlap is currently broken as there are is
 
 **Branch name:** [paste branch name here] fix/157-relevance-scorer-partial-overlap-fixture
 
-**Setup confirmation:** [ ] App runs locally at localhost:5173
+**Setup confirmation:** [ x] App runs locally at localhost:5173 Setup incomplete: Docker Desktop could not be installed due to insufficient disk space on C: drive. Docker is required to run the PostgreSQL, Redis, and ChromaDB services the app depends on. Will complete setup once disk space issue is resolved 
 
 **Cohort ledger:** [y] Issue added to cohort ledger
