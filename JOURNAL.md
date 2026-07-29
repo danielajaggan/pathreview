@@ -26,7 +26,7 @@ The function test_query_with_partial_overlap is currently broken as there are is
 **Reproduction summary:**
 Ran `pytest tests/unit/test_relevance_scorer.py -q` and confirmed the test fails with `assert 1.0 < 0.9`. The chunk "Django is a Python web framework for rapid development" contains all four query terms (Python, Django, web, framework), so the scorer correctly returns 1.0. The fix is to change the chunk text so only some query terms are present.
 
-**PLAN.md link:** [link to PLAN.md in your fork]
+**PLAN.md link:** [link to PLAN.md in your fork] https://github.com/danielajaggan/pathreview/blob/fix/157-relevance-scorer-partial-overlap-fixture/plan.md
 
 **Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
 
