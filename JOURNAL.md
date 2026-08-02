@@ -17,6 +17,21 @@ The function test_query_with_partial_overlap is currently broken as there are is
 **Setup confirmation:** [y] App runs locally at localhost:5173
 **Cohort ledger:** [y] Issue added to cohort ledger
 
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** (https://github.com/danielajaggan/pathreview/blob/fix/157-relevance-scorer-partial-overlap-fixture/tests/unit/test_relevance_scorer.py)
+
+**Reproduction summary:**
+[1–2 sentences: How did you reproduce the issue? What did you observe?]
+an `pytest tests/unit/test_relevance_scorer.py::TestRelevanceScorer::test_query_with_partial_overlap -v` and confirmed the test fails: the fixture text contains all 4 query keywords (python, django, web, framework), so `scorer.score()` returns a near-perfect score instead of the expected partial-overlap range (0.3–0.9).
+
+**PLAN.md link:** [link to PLAN.md in your fork] https://github.com/danielajaggan/pathreview/blob/fix/157-relevance-scorer-partial-overlap-fixture/plan.md
+
+**Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
+
+**Blockers or open questions:**
+[Anything you're still uncertain about going into Week 9, or leave blank]
+
 
 
 
