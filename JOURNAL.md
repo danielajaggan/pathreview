@@ -33,6 +33,20 @@ an `pytest tests/unit/test_relevance_scorer.py::TestRelevanceScorer::test_query_
 [Anything you're still uncertain about going into Week 9, or leave blank]
 
 
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+Implemented the fix for issue #157 — edited the fixture text in `test_query_with_partial_overlap` to remove 2 keywords ("web", "framework") so it only partially overlaps with the query. Test now passes locally. Ran full test suite (`make test-unit`) and lint/type checks (`make check`); confirmed 52 test failures and 182 lint errors are pre-existing and unrelated to my change (all in different files). Opened a draft PR.
+
+**Next steps:**
+Get peer/mentor feedback on the draft PR in Slack, address any feedback, then finalize and mark the PR ready for review before Sunday's deadline.
+
+**Blockers:**
+[leave blank, or note anything real you're facing]
+
+
 
 
 
