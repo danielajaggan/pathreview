@@ -46,6 +46,23 @@ Get peer/mentor feedback on the draft PR in Slack, address any feedback, then fi
 **Blockers:**
 [leave blank, or note anything real you're facing]
 
+### Check-in 2 (end of week)
+
+**PR link:** https://github.com/danielajaggan/pathreview/pull/1
+
+**Branch:** fix/157-relevance-scorer-partial-overlap-fixture
+
+**What you built:**
+Fixed the `test_query_with_partial_overlap` fixture in the relevance scorer test suite — the original fixture text contained all 4 query keywords, causing a perfect score instead of a genuine partial-overlap score. Removed 2 keywords so the test now correctly validates partial overlap.
+
+**Tests added or updated:**
+`tests/unit/test_relevance_scorer.py` — updated the fixture text in `test_query_with_partial_overlap`. Confirmed via `make test-unit` that no other tests were affected (52 pre-existing failures unrelated to this change, documented in the PR description).
+
+**Self-review confirmation:** [x] make check passes  [x] make test-unit passes
+*(both confirmed to introduce no new failures beyond documented pre-existing ones)*
+
+**Draft PR feedback received from:** Pending — posted in Slack, awaiting peer/mentor review. Will update this entry once feedback is received and the PR is marked ready.
+
 
 
 
