@@ -63,6 +63,47 @@ Fixed the `test_query_with_partial_overlap` fixture in the relevance scorer test
 
 **Draft PR feedback received from:** Pending — posted in Slack, awaiting peer/mentor review. Will update this entry once feedback is received and the PR is marked ready.
 
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [ y] No — still awaiting review
+
+**Summary of feedback:**
+[What did reviewers comment on? Or note that no review came in.] I still have not received a review on my PR
+
+**How you responded:**
+[What changes did you make, or what did you reply? If no feedback,
+leave blank.]
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+[Be specific — what part of the process, codebase, or workflow
+surprised you?] The part of the codebase that surprised me the most was actually identifying and understanding what exactly was needed to be reproduced and why the test fails.
+
+**What did you learn about working in a large codebase?**
+[What's different about contributing to someone else's production code
+vs. building your own project?] The biggest difference from building my own projects is that you're working within constraints you didn't set, existing branch naming conventions, commit message formats, docstring styles and your changes have to stay consistent with everyone else's.
+
+**How did AI tools help — and where did they fall short?**
+[Where was AI assistance most useful this module? Where did you need
+to go beyond what AI could give you?] AI assistance was most useful for troubleshooting environment setup such as Docker, Node/nvm installation, port conflicts and for structuring my PLAN.md and JOURNAL.md entries clearly. It was also helpful for drafting a properly formatted Conventional Commits message once I knew the convention. Where it fell short was in verifying my actual understanding of the codebase. I still had to read the real scorer logic myself, run the tests myself, and confirm the pre-existing failures myself before I could trust that my fix was correct and complete.
+
+**What would you do differently if you started over?**
+[Issue selection, planning, implementation, or process — anything
+you'd change?] I would try to spend more time actually understanding the problem. Even though this was a tier 1 issues, i had a hard time trying to comprehend what i was supposed to do, even with using claude. Howver the more i reread I was able to understand what it is that im actually supoosed to do.
+
+**What are you most proud of from this module?**
+[One thing — it doesn't have to be the PR itself.]
+What i felt most proud of in this module is applying what i have learnt in previous modules to apply to this module, understanding and being able to identify issues that I would gave had to use AI to figure out was easier to pin point and address.
+
+
+
+
+
 
 
 
